@@ -1,0 +1,35 @@
+{
+    "name": "dine",
+    "version": "1.0.0",
+    "description": "Discord Is Not Everything",
+    "main": "index.js",
+    "scripts": {
+        "start:dev": "npx nodemon DEBUG",
+        "start": "npm run build && node ./build/index.js",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/valquaint/DINE.git"
+    },
+    "keywords": [
+        "Discord",
+        "Bot",
+        "Expandable"
+    ],
+    "author": "valquaint",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/valquaint/DINE/issues"
+    },
+    "homepage": "https://github.com/valquaint/DINE#readme",
+    "devDependencies": {
+        "@types/node": "^20.4.2",
+        "nodemon": "^3.0.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "winston": "^3.10.0"
+    }
+}
